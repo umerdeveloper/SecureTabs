@@ -10,11 +10,11 @@
         <!--My Bills-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="My Bills" id="BYZ-38-t0r" customClass="ViewController" customModule="SecureTabs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="My Bills" id="BYZ-38-t0r" customClass="MyBillsViewController" customModule="SecureTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="My Bills" image="bitcoinsign.square.fill" catalog="system" id="oF0-9d-kSz"/>
@@ -23,10 +23,45 @@
             </objects>
             <point key="canvasLocation" x="2080" y="-709"/>
         </scene>
+        <!--Login-->
+        <scene sceneID="yuV-ai-5gd">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" title="Login" id="mip-Bw-xJv" customClass="LoginViewController" customModule="SecureTabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uUj-ob-juo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login Controller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6e-Zz-xEC">
+                                <rect key="frame" x="20" y="142" width="374" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Iz-Et-zI5">
+                                <rect key="frame" x="138" y="422" width="139" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="closeWindowPressed:" destination="mip-Bw-xJv" eventType="touchUpInside" id="gCb-Yy-LuK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="xDF-jI-3hm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hk7-Sl-mbw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2837.68115942029" y="-709.15178571428567"/>
+        </scene>
         <!--Home-->
         <scene sceneID="tt8-LW-fZd">
             <objects>
-                <viewController title="Home" id="WvT-UA-ws7" sceneMemberID="viewController">
+                <viewController title="Home" id="WvT-UA-ws7" customClass="HomeViewController" customModule="SecureTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xHq-PI-xTm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,7 +77,7 @@
         <!--My Reciepts-->
         <scene sceneID="mfM-7b-xB1">
             <objects>
-                <viewController title="My Reciepts" id="y2y-zX-1Nd" sceneMemberID="viewController">
+                <viewController title="My Reciepts" id="y2y-zX-1Nd" customClass="MyReceiptsViewController" customModule="SecureTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hKd-Mc-4em">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="2080" y="-50"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Base Tab Bar Controller-->
         <scene sceneID="TiE-Tg-m6z">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="adE-hE-fy3" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="adE-hE-fy3" customClass="BaseTabBarController" customModule="SecureTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vx9-oE-C2k">
                         <autoresizingMask key="autoresizingMask"/>

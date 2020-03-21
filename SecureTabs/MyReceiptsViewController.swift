@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MyReceiptsViewController.swift
 //  SecureTabs
 //
 //  Created by Umer Khan on 21/03/2020.
@@ -8,13 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyReceiptsViewController: UIViewController, LoginHandler {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-

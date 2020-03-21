@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		CBDF3C0024262C540036ECF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF3BFF24262C540036ECF5 /* AppDelegate.swift */; };
 		CBDF3C0224262C540036ECF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF3C0124262C540036ECF5 /* SceneDelegate.swift */; };
-		CBDF3C0424262C540036ECF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF3C0324262C540036ECF5 /* ViewController.swift */; };
 		CBDF3C0724262C540036ECF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDF3C0524262C540036ECF5 /* Main.storyboard */; };
 		CBDF3C0924262C570036ECF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDF3C0824262C570036ECF5 /* Assets.xcassets */; };
 		CBDF3C0C24262C570036ECF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDF3C0A24262C570036ECF5 /* LaunchScreen.storyboard */; };
+		CBDF3C1424262E900036ECF5 /* MyBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF3C1324262E900036ECF5 /* MyBillsViewController.swift */; };
+		CBDF3C1624262E9A0036ECF5 /* MyReceiptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF3C1524262E9A0036ECF5 /* MyReceiptsViewController.swift */; };
+		CBDF3C1824262EA30036ECF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF3C1724262EA30036ECF5 /* HomeViewController.swift */; };
+		CBDF3C1A24262EB50036ECF5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF3C1924262EB50036ECF5 /* LoginViewController.swift */; };
+		CBDF3C1C242633A00036ECF5 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF3C1B242633A00036ECF5 /* LoginHandler.swift */; };
+		CBDF3C1E242655FB0036ECF5 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDF3C1D242655FB0036ECF5 /* BaseTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CBDF3BFC24262C540036ECF5 /* SecureTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDF3BFF24262C540036ECF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBDF3C0124262C540036ECF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CBDF3C0324262C540036ECF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBDF3C0624262C540036ECF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBDF3C0824262C570036ECF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBDF3C0B24262C570036ECF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBDF3C0D24262C570036ECF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDF3C1324262E900036ECF5 /* MyBillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBillsViewController.swift; sourceTree = "<group>"; };
+		CBDF3C1524262E9A0036ECF5 /* MyReceiptsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReceiptsViewController.swift; sourceTree = "<group>"; };
+		CBDF3C1724262EA30036ECF5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CBDF3C1924262EB50036ECF5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CBDF3C1B242633A00036ECF5 /* LoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
+		CBDF3C1D242655FB0036ECF5 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				CBDF3BFF24262C540036ECF5 /* AppDelegate.swift */,
 				CBDF3C0124262C540036ECF5 /* SceneDelegate.swift */,
-				CBDF3C0324262C540036ECF5 /* ViewController.swift */,
+				CBDF3C1324262E900036ECF5 /* MyBillsViewController.swift */,
+				CBDF3C1524262E9A0036ECF5 /* MyReceiptsViewController.swift */,
+				CBDF3C1724262EA30036ECF5 /* HomeViewController.swift */,
+				CBDF3C1924262EB50036ECF5 /* LoginViewController.swift */,
+				CBDF3C1B242633A00036ECF5 /* LoginHandler.swift */,
+				CBDF3C1D242655FB0036ECF5 /* BaseTabBarController.swift */,
 				CBDF3C0524262C540036ECF5 /* Main.storyboard */,
 				CBDF3C0824262C570036ECF5 /* Assets.xcassets */,
 				CBDF3C0A24262C570036ECF5 /* LaunchScreen.storyboard */,
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBDF3C0424262C540036ECF5 /* ViewController.swift in Sources */,
+				CBDF3C1E242655FB0036ECF5 /* BaseTabBarController.swift in Sources */,
+				CBDF3C1A24262EB50036ECF5 /* LoginViewController.swift in Sources */,
+				CBDF3C1824262EA30036ECF5 /* HomeViewController.swift in Sources */,
+				CBDF3C1424262E900036ECF5 /* MyBillsViewController.swift in Sources */,
+				CBDF3C1C242633A00036ECF5 /* LoginHandler.swift in Sources */,
+				CBDF3C1624262E9A0036ECF5 /* MyReceiptsViewController.swift in Sources */,
 				CBDF3C0024262C540036ECF5 /* AppDelegate.swift in Sources */,
 				CBDF3C0224262C540036ECF5 /* SceneDelegate.swift in Sources */,
 			);
